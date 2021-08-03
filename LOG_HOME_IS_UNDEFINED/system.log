@@ -1,44 +1,44 @@
-2021-07-09 17:42:09,637 INFO (SpringApplication.java:652)- The following profiles are active: local
-2021-07-09 17:42:10,467 INFO (RepositoryConfigurationDelegate.java:244)- Multiple Spring Data modules found, entering strict repository configuration mode!
-2021-07-09 17:42:10,470 INFO (RepositoryConfigurationDelegate.java:126)- Bootstrapping Spring Data repositories in DEFAULT mode.
-2021-07-09 17:42:10,495 INFO (RepositoryConfigurationDelegate.java:182)- Finished Spring Data repository scanning in 14ms. Found 0 repository interfaces.
-2021-07-09 17:42:10,586 WARN (EndpointId.java:131)- Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
-2021-07-09 17:42:10,669 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.xlh.modules.**.mapper]' package. Please check your configuration.
-2021-07-09 17:42:10,827 INFO (GenericScope.java:295)- BeanFactory id=4e397538-4494-3f5b-8747-7104f6e369e0
-2021-07-09 17:42:10,911 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$355e6147] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-07-09 17:42:10,932 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$51786444] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2021-07-09 17:42:11,126 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 9951 (http)
-2021-07-09 17:42:11,139 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-9951"]
-2021-07-09 17:42:11,148 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
-2021-07-09 17:42:11,148 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.27]
-2021-07-09 17:42:11,272 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
-2021-07-09 17:42:11,272 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 1628 ms
-2021-07-09 17:42:11,354 WARN (URLConfigurationSource.java:121)- No URLs will be polled as dynamic configuration sources.
-2021-07-09 17:42:11,355 INFO (URLConfigurationSource.java:122)- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-07-09 17:42:11,363 INFO (DynamicPropertyFactory.java:281)- DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@5bf523e3
-2021-07-09 17:42:12,430 INFO (EndpointLinksResolver.java:58)- Exposing 2 endpoint(s) beneath base path '/actuator'
-2021-07-09 17:42:12,500 WARN (URLConfigurationSource.java:121)- No URLs will be polled as dynamic configuration sources.
-2021-07-09 17:42:12,500 INFO (URLConfigurationSource.java:122)- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-2021-07-09 17:42:12,623 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'applicationTaskExecutor'
-2021-07-09 17:42:13,299 INFO (UserDetailsServiceAutoConfiguration.java:83)- 
+2021-08-03 17:28:07,681 INFO (SpringApplication.java:652)- The following profiles are active: local
+2021-08-03 17:28:09,560 INFO (RepositoryConfigurationDelegate.java:244)- Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-08-03 17:28:09,562 INFO (RepositoryConfigurationDelegate.java:126)- Bootstrapping Spring Data repositories in DEFAULT mode.
+2021-08-03 17:28:09,656 INFO (RepositoryConfigurationDelegate.java:182)- Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+2021-08-03 17:28:09,912 WARN (EndpointId.java:131)- Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
+2021-08-03 17:28:10,029 WARN (Logger.java:44)- No MyBatis mapper was found in '[com.xlh.modules.**.mapper]' package. Please check your configuration.
+2021-08-03 17:28:10,199 INFO (GenericScope.java:295)- BeanFactory id=4e397538-4494-3f5b-8747-7104f6e369e0
+2021-08-03 17:28:10,288 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7171ec3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-03 17:28:10,309 INFO (PostProcessorRegistrationDelegate.java:330)- Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$233121c0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-08-03 17:28:10,556 INFO (TomcatWebServer.java:90)- Tomcat initialized with port(s): 9951 (http)
+2021-08-03 17:28:10,571 INFO (DirectJDKLog.java:173)- Initializing ProtocolHandler ["http-nio-9951"]
+2021-08-03 17:28:10,580 INFO (DirectJDKLog.java:173)- Starting service [Tomcat]
+2021-08-03 17:28:10,580 INFO (DirectJDKLog.java:173)- Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-08-03 17:28:10,718 INFO (DirectJDKLog.java:173)- Initializing Spring embedded WebApplicationContext
+2021-08-03 17:28:10,718 INFO (ServletWebServerApplicationContext.java:284)- Root WebApplicationContext: initialization completed in 3025 ms
+2021-08-03 17:28:10,795 WARN (URLConfigurationSource.java:121)- No URLs will be polled as dynamic configuration sources.
+2021-08-03 17:28:10,795 INFO (URLConfigurationSource.java:122)- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-03 17:28:10,806 INFO (DynamicPropertyFactory.java:281)- DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@410fc508
+2021-08-03 17:28:11,978 INFO (EndpointLinksResolver.java:58)- Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-08-03 17:28:12,057 WARN (URLConfigurationSource.java:121)- No URLs will be polled as dynamic configuration sources.
+2021-08-03 17:28:12,057 INFO (URLConfigurationSource.java:122)- To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-08-03 17:28:12,186 INFO (ExecutorConfigurationSupport.java:171)- Initializing ExecutorService 'applicationTaskExecutor'
+2021-08-03 17:28:12,912 INFO (UserDetailsServiceAutoConfiguration.java:83)- 
 
-Using generated security password: ba64100e-7d76-4b44-9147-3051eb13f805
+Using generated security password: 7405090a-5430-4a6a-b623-ef580150f4c2
 
-2021-07-09 17:42:13,376 INFO (DefaultSecurityFilterChain.java:43)- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68e094c9, org.springframework.security.web.context.SecurityContextPersistenceFilter@5ab3f611, org.springframework.security.web.header.HeaderWriterFilter@239bc43f, org.springframework.security.web.csrf.CsrfFilter@84eafc2, org.springframework.security.web.authentication.logout.LogoutFilter@2a5ed225, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4724b2c1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@c67a89, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@243162b1, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@31aa9b01, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@44aa5585, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6f926d01, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@712c9bcf, org.springframework.security.web.session.SessionManagementFilter@6b338591, org.springframework.security.web.access.ExceptionTranslationFilter@122ea8dc, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2f6d8c9]
-2021-07-09 17:42:13,835 INFO (InstanceInfoFactory.java:72)- Setting initial instance status as: STARTING
-2021-07-09 17:42:13,867 INFO (DiscoveryClient.java:365)- Initializing Eureka in region us-east-1
-2021-07-09 17:42:14,084 INFO (DiscoveryJerseyProvider.java:70)- Using JSON encoding codec LegacyJacksonJson
-2021-07-09 17:42:14,085 INFO (DiscoveryJerseyProvider.java:71)- Using JSON decoding codec LegacyJacksonJson
-2021-07-09 17:42:14,301 INFO (DiscoveryJerseyProvider.java:80)- Using XML encoding codec XStreamXml
-2021-07-09 17:42:14,301 INFO (DiscoveryJerseyProvider.java:81)- Using XML decoding codec XStreamXml
-2021-07-09 17:42:14,583 INFO (DiscoveryClient.java:976)- Disable delta property : false
-2021-07-09 17:42:14,583 INFO (DiscoveryClient.java:977)- Single vip registry refresh property : null
-2021-07-09 17:42:14,583 INFO (DiscoveryClient.java:978)- Force full registry fetch : false
-2021-07-09 17:42:14,583 INFO (DiscoveryClient.java:979)- Application is null : false
-2021-07-09 17:42:14,583 INFO (DiscoveryClient.java:980)- Registered Applications size is zero : true
-2021-07-09 17:42:14,584 INFO (DiscoveryClient.java:982)- Application version is -1: true
-2021-07-09 17:42:14,584 INFO (DiscoveryClient.java:1065)- Getting all instance registry info from the eureka server
-2021-07-09 17:42:18,751 ERROR (RedirectingEurekaHttpClient.java:83)- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+2021-08-03 17:28:12,995 INFO (DefaultSecurityFilterChain.java:43)- Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b00d59, org.springframework.security.web.context.SecurityContextPersistenceFilter@67a38, org.springframework.security.web.header.HeaderWriterFilter@33356666, org.springframework.security.web.csrf.CsrfFilter@50fa5938, org.springframework.security.web.authentication.logout.LogoutFilter@28e91f6d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@26c6288d, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@464a3430, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7c048b30, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@35cbeb54, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@31b650e9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1ab9c735, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@309cf657, org.springframework.security.web.session.SessionManagementFilter@878feb2, org.springframework.security.web.access.ExceptionTranslationFilter@73d83141, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58b3eb1]
+2021-08-03 17:28:13,419 INFO (InstanceInfoFactory.java:72)- Setting initial instance status as: STARTING
+2021-08-03 17:28:13,447 INFO (DiscoveryClient.java:365)- Initializing Eureka in region us-east-1
+2021-08-03 17:28:13,668 INFO (DiscoveryJerseyProvider.java:70)- Using JSON encoding codec LegacyJacksonJson
+2021-08-03 17:28:13,668 INFO (DiscoveryJerseyProvider.java:71)- Using JSON decoding codec LegacyJacksonJson
+2021-08-03 17:28:13,754 INFO (DiscoveryJerseyProvider.java:80)- Using XML encoding codec XStreamXml
+2021-08-03 17:28:13,754 INFO (DiscoveryJerseyProvider.java:81)- Using XML decoding codec XStreamXml
+2021-08-03 17:28:14,171 INFO (DiscoveryClient.java:976)- Disable delta property : false
+2021-08-03 17:28:14,171 INFO (DiscoveryClient.java:977)- Single vip registry refresh property : null
+2021-08-03 17:28:14,172 INFO (DiscoveryClient.java:978)- Force full registry fetch : false
+2021-08-03 17:28:14,172 INFO (DiscoveryClient.java:979)- Application is null : false
+2021-08-03 17:28:14,172 INFO (DiscoveryClient.java:980)- Registered Applications size is zero : true
+2021-08-03 17:28:14,172 INFO (DiscoveryClient.java:982)- Application version is -1: true
+2021-08-03 17:28:14,173 INFO (DiscoveryClient.java:1065)- Getting all instance registry info from the eureka server
+2021-08-03 17:28:18,318 ERROR (RedirectingEurekaHttpClient.java:83)- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
@@ -69,11 +69,11 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272)
 	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67)
 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:322)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$58e15d63.CGLIB$eurekaClient$0(<generated>)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$58e15d63$$FastClassBySpringCGLIB$$4dbe26dd.invoke(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$2a9a1adf.CGLIB$eurekaClient$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$2a9a1adf$$FastClassBySpringCGLIB$$4687738b.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$58e15d63.eurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$2a9a1adf.eurekaClient(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -101,7 +101,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:499)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$2a12cf85.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$d05630a1.getEurekaClient(<generated>)
 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57)
 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:38)
 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:83)
@@ -140,8 +140,8 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
 	... 79 common frames omitted
-2021-07-09 17:42:18,752 WARN (RetryableEurekaHttpClient.java:130)- Request execution failed with message: java.net.ConnectException: Connection refused: connect
-2021-07-09 17:42:18,752 ERROR (DiscoveryClient.java:990)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951 - was unable to refresh its cache! status = Cannot execute request on any known server
+2021-08-03 17:28:18,319 WARN (RetryableEurekaHttpClient.java:130)- Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2021-08-03 17:28:18,320 ERROR (DiscoveryClient.java:990)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951 - was unable to refresh its cache! status = Cannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
@@ -155,11 +155,11 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at com.netflix.discovery.DiscoveryClient.<init>(DiscoveryClient.java:272)
 	at org.springframework.cloud.netflix.eureka.CloudEurekaClient.<init>(CloudEurekaClient.java:67)
 	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration.eurekaClient(EurekaClientAutoConfiguration.java:322)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$58e15d63.CGLIB$eurekaClient$0(<generated>)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$58e15d63$$FastClassBySpringCGLIB$$4dbe26dd.invoke(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$2a9a1adf.CGLIB$eurekaClient$0(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$2a9a1adf$$FastClassBySpringCGLIB$$4687738b.invoke(<generated>)
 	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:244)
 	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:363)
-	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$58e15d63.eurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.EurekaClientAutoConfiguration$RefreshableEurekaClientConfiguration$$EnhancerBySpringCGLIB$$2a9a1adf.eurekaClient(<generated>)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -187,7 +187,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.cloud.context.scope.GenericScope$LockedScopedProxyFactoryBean.invoke(GenericScope.java:499)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$2a12cf85.getEurekaClient(<generated>)
+	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaRegistration$$EnhancerBySpringCGLIB$$d05630a1.getEurekaClient(<generated>)
 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.maybeInitializeClient(EurekaServiceRegistry.java:57)
 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry.register(EurekaServiceRegistry.java:38)
 	at org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration.start(EurekaAutoServiceRegistration.java:83)
@@ -206,22 +206,22 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1204)
 	at com.xlh.DesignApplication.main(DesignApplication.java:16)
-2021-07-09 17:42:18,753 WARN (DiscoveryClient.java:297)- Using default backup registry implementation which does not do anything.
-2021-07-09 17:42:18,754 INFO (DiscoveryClient.java:1288)- Starting heartbeat executor: renew interval is: 5
-2021-07-09 17:42:18,756 INFO (InstanceInfoReplicator.java:60)- InstanceInfoReplicator onDemand update allowed rate per min is 4
-2021-07-09 17:42:18,759 INFO (DiscoveryClient.java:465)- Discovery Client initialized at timestamp 1625823738758 with initial instances count: 0
-2021-07-09 17:42:18,761 INFO (EurekaServiceRegistry.java:41)- Registering application HOSPITAL-DOCTOR with eureka with status UP
-2021-07-09 17:42:18,762 INFO (DiscoveryClient.java:1323)- Saw local status change event StatusChangeEvent [timestamp=1625823738762, current=UP, previous=STARTING]
-2021-07-09 17:42:18,763 WARN (InstanceInfoReplicator.java:110)- Ignoring onDemand update due to rate limiter
-2021-07-09 17:42:18,765 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
-2021-07-09 17:42:18,806 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-9951"]
-2021-07-09 17:42:18,826 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 9951 (http) with context path ''
-2021-07-09 17:42:18,827 INFO (EurekaAutoServiceRegistration.java:145)- Updating port to 9951
-2021-07-09 17:42:18,974 INFO (StartupInfoLogger.java:59)- Started DesignApplication in 10.472 seconds (JVM running for 11.123)
-2021-07-09 17:42:19,383 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
-2021-07-09 17:42:19,383 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
-2021-07-09 17:42:19,390 INFO (FrameworkServlet.java:547)- Completed initialization in 7 ms
-2021-07-09 17:42:19,859 ERROR (HikariPool.java:574)- HikariPool-1 - Exception during pool initialization.
+2021-08-03 17:28:18,321 WARN (DiscoveryClient.java:297)- Using default backup registry implementation which does not do anything.
+2021-08-03 17:28:18,323 INFO (DiscoveryClient.java:1288)- Starting heartbeat executor: renew interval is: 5
+2021-08-03 17:28:18,325 INFO (InstanceInfoReplicator.java:60)- InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-08-03 17:28:18,329 INFO (DiscoveryClient.java:465)- Discovery Client initialized at timestamp 1627982898328 with initial instances count: 0
+2021-08-03 17:28:18,332 INFO (EurekaServiceRegistry.java:41)- Registering application HOSPITAL-DOCTOR with eureka with status UP
+2021-08-03 17:28:18,334 INFO (DiscoveryClient.java:1323)- Saw local status change event StatusChangeEvent [timestamp=1627982898334, current=UP, previous=STARTING]
+2021-08-03 17:28:18,335 WARN (InstanceInfoReplicator.java:110)- Ignoring onDemand update due to rate limiter
+2021-08-03 17:28:18,337 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2021-08-03 17:28:18,389 INFO (DirectJDKLog.java:173)- Starting ProtocolHandler ["http-nio-9951"]
+2021-08-03 17:28:18,413 INFO (TomcatWebServer.java:202)- Tomcat started on port(s): 9951 (http) with context path ''
+2021-08-03 17:28:18,414 INFO (EurekaAutoServiceRegistration.java:145)- Updating port to 9951
+2021-08-03 17:28:18,576 INFO (StartupInfoLogger.java:59)- Started DesignApplication in 12.177 seconds (JVM running for 12.795)
+2021-08-03 17:28:19,133 INFO (DirectJDKLog.java:173)- Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-03 17:28:19,133 INFO (FrameworkServlet.java:525)- Initializing Servlet 'dispatcherServlet'
+2021-08-03 17:28:19,140 INFO (FrameworkServlet.java:547)- Completed initialization in 7 ms
+2021-08-03 17:28:19,459 ERROR (HikariPool.java:574)- HikariPool-1 - Exception during pool initialization.
 java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
@@ -245,7 +245,7 @@ java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$d901b904.getConnection(<generated>)
+	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$7f451a20.getConnection(<generated>)
 	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
 	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
@@ -261,15 +261,14 @@ java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117)
 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-07-09 17:42:19,863 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
-2021-07-09 17:42:19,867 WARN (AbstractHealthIndicator.java:87)- DataSource health check failed
+2021-08-03 17:28:19,460 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2021-08-03 17:28:19,460 WARN (AbstractHealthIndicator.java:87)- DataSource health check failed
 org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
@@ -284,8 +283,7 @@ org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC
 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117)
 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
@@ -314,22 +312,22 @@ Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is 
 	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$d901b904.getConnection(<generated>)
+	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$7f451a20.getConnection(<generated>)
 	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
 	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
-	... 19 common frames omitted
-2021-07-09 17:42:19,886 WARN (DiscoveryClient.java:1321)- Saw local status change event StatusChangeEvent [timestamp=1625823739886, current=DOWN, previous=UP]
-2021-07-09 17:42:19,886 WARN (InstanceInfoReplicator.java:110)- Ignoring onDemand update due to rate limiter
-2021-07-09 17:42:19,887 INFO (DiscoveryClient.java:844)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951: registering service...
-2021-07-09 17:42:20,767 INFO (DiscoveryClient.java:976)- Disable delta property : false
-2021-07-09 17:42:20,767 INFO (DiscoveryClient.java:977)- Single vip registry refresh property : null
-2021-07-09 17:42:20,768 INFO (DiscoveryClient.java:978)- Force full registry fetch : false
-2021-07-09 17:42:20,768 INFO (DiscoveryClient.java:979)- Application is null : false
-2021-07-09 17:42:20,768 INFO (DiscoveryClient.java:980)- Registered Applications size is zero : true
-2021-07-09 17:42:20,768 INFO (DiscoveryClient.java:982)- Application version is -1: true
-2021-07-09 17:42:20,768 INFO (DiscoveryClient.java:1065)- Getting all instance registry info from the eureka server
-2021-07-09 17:42:20,879 ERROR (HikariPool.java:574)- HikariPool-1 - Exception during pool initialization.
+	... 18 common frames omitted
+2021-08-03 17:28:19,466 WARN (DiscoveryClient.java:1321)- Saw local status change event StatusChangeEvent [timestamp=1627982899466, current=DOWN, previous=UP]
+2021-08-03 17:28:19,466 WARN (InstanceInfoReplicator.java:110)- Ignoring onDemand update due to rate limiter
+2021-08-03 17:28:19,466 INFO (DiscoveryClient.java:844)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951: registering service...
+2021-08-03 17:28:20,337 INFO (DiscoveryClient.java:976)- Disable delta property : false
+2021-08-03 17:28:20,338 INFO (DiscoveryClient.java:977)- Single vip registry refresh property : null
+2021-08-03 17:28:20,338 INFO (DiscoveryClient.java:978)- Force full registry fetch : false
+2021-08-03 17:28:20,338 INFO (DiscoveryClient.java:979)- Application is null : false
+2021-08-03 17:28:20,338 INFO (DiscoveryClient.java:980)- Registered Applications size is zero : true
+2021-08-03 17:28:20,338 INFO (DiscoveryClient.java:982)- Application version is -1: true
+2021-08-03 17:28:20,338 INFO (DiscoveryClient.java:1065)- Getting all instance registry info from the eureka server
+2021-08-03 17:28:20,461 ERROR (HikariPool.java:574)- HikariPool-1 - Exception during pool initialization.
 java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
@@ -353,7 +351,7 @@ java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$d901b904.getConnection(<generated>)
+	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$7f451a20.getConnection(<generated>)
 	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
 	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
@@ -396,7 +394,7 @@ java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-07-09 17:42:20,880 WARN (AbstractHealthIndicator.java:87)- DataSource health check failed
+2021-08-03 17:28:20,461 WARN (AbstractHealthIndicator.java:87)- DataSource health check failed
 org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
@@ -461,26 +459,25 @@ Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is 
 	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$d901b904.getConnection(<generated>)
+	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$7f451a20.getConnection(<generated>)
 	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
 	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
 	... 39 common frames omitted
-2021-07-09 17:42:20,981 INFO (EpollProvider.java:68)- Starting without optional epoll library
-2021-07-09 17:42:20,983 INFO (KqueueProvider.java:70)- Starting without optional kqueue library
-2021-07-09 17:42:22,769 WARN (TimedSupervisorTask.java:71)- task supervisor timed out
+2021-08-03 17:28:20,550 INFO (EpollProvider.java:68)- Starting without optional epoll library
+2021-08-03 17:28:20,552 INFO (KqueueProvider.java:70)- Starting without optional kqueue library
+2021-08-03 17:28:22,339 WARN (TimedSupervisorTask.java:71)- task supervisor timed out
 java.util.concurrent.TimeoutException: null
 	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
 	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:66)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-07-09 17:42:23,287 WARN (AbstractReactiveHealthIndicator.java:89)- Redis health check failed
+2021-08-03 17:28:22,803 WARN (AbstractReactiveHealthIndicator.java:89)- Redis health check failed
 org.springframework.data.redis.RedisConnectionFailureException: Unable to connect to Redis; nested exception is io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.0.1:6379
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1112)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getConnection(LettuceConnectionFactory.java:1091)
@@ -491,8 +488,7 @@ org.springframework.data.redis.RedisConnectionFailureException: Unable to connec
 	at reactor.core.publisher.FluxSubscribeOnCallable$CallableSubscribeOnSubscription.run(FluxSubscribeOnCallable.java:225)
 	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:50)
 	at reactor.core.scheduler.SchedulerTask.call(SchedulerTask.java:27)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
@@ -507,7 +503,7 @@ Caused by: io.lettuce.core.RedisConnectionException: Unable to connect to 127.0.
 	at java.util.Optional.orElseGet(Optional.java:267)
 	at org.springframework.data.redis.connection.lettuce.StandaloneConnectionProvider.getConnection(StandaloneConnectionProvider.java:113)
 	at org.springframework.data.redis.connection.lettuce.LettuceConnectionFactory$SharedConnection.getNativeConnection(LettuceConnectionFactory.java:1110)
-	... 15 common frames omitted
+	... 14 common frames omitted
 Caused by: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
 Caused by: java.net.ConnectException: Connection refused: no further information
 	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
@@ -522,7 +518,7 @@ Caused by: java.net.ConnectException: Connection refused: no further information
 	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
 	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
 	at java.lang.Thread.run(Thread.java:748)
-2021-07-09 17:42:23,980 ERROR (RedirectingEurekaHttpClient.java:83)- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+2021-08-03 17:28:23,554 ERROR (RedirectingEurekaHttpClient.java:83)- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
@@ -549,8 +545,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
@@ -575,9 +570,9 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
-	... 31 common frames omitted
-2021-07-09 17:42:23,981 WARN (RetryableEurekaHttpClient.java:130)- Request execution failed with message: java.net.ConnectException: Connection refused: connect
-2021-07-09 17:42:23,982 WARN (DiscoveryClient.java:849)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951 - registration failed Cannot execute request on any known server
+	... 30 common frames omitted
+2021-08-03 17:28:23,555 WARN (RetryableEurekaHttpClient.java:130)- Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2021-08-03 17:28:23,556 WARN (DiscoveryClient.java:849)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951 - registration failed Cannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
@@ -588,14 +583,13 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-07-09 17:42:23,983 WARN (InstanceInfoReplicator.java:125)- There was a problem with the instance info replicator
+2021-08-03 17:28:23,557 WARN (InstanceInfoReplicator.java:125)- There was a problem with the instance info replicator
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
@@ -606,15 +600,14 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-07-09 17:42:23,985 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
-2021-07-09 17:42:24,869 ERROR (RedirectingEurekaHttpClient.java:83)- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+2021-08-03 17:28:23,558 INFO (HikariDataSource.java:110)- HikariPool-1 - Starting...
+2021-08-03 17:28:24,411 ERROR (RedirectingEurekaHttpClient.java:83)- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
@@ -643,8 +636,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1497)
 	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1464)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
@@ -667,9 +659,9 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
-	... 31 common frames omitted
-2021-07-09 17:42:24,871 WARN (RetryableEurekaHttpClient.java:130)- Request execution failed with message: java.net.ConnectException: Connection refused: connect
-2021-07-09 17:42:24,871 ERROR (DiscoveryClient.java:990)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951 - was unable to refresh its cache! status = Cannot execute request on any known server
+	... 30 common frames omitted
+2021-08-03 17:28:24,411 WARN (RetryableEurekaHttpClient.java:130)- Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2021-08-03 17:28:24,412 ERROR (DiscoveryClient.java:990)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951 - was unable to refresh its cache! status = Cannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
@@ -681,12 +673,11 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1497)
 	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1464)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-07-09 17:42:24,992 ERROR (HikariPool.java:574)- HikariPool-1 - Exception during pool initialization.
+2021-08-03 17:28:24,566 ERROR (HikariPool.java:574)- HikariPool-1 - Exception during pool initialization.
 java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
 	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
@@ -710,7 +701,7 @@ java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$d901b904.getConnection(<generated>)
+	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$7f451a20.getConnection(<generated>)
 	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
 	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
@@ -726,14 +717,13 @@ java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117)
 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-07-09 17:42:24,993 WARN (AbstractHealthIndicator.java:87)- DataSource health check failed
+2021-08-03 17:28:24,567 WARN (AbstractHealthIndicator.java:87)- DataSource health check failed
 org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC Connection; nested exception is java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:82)
 	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:324)
@@ -748,8 +738,7 @@ org.springframework.jdbc.CannotGetJdbcConnectionException: Failed to obtain JDBC
 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:117)
 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
@@ -778,23 +767,20 @@ Caused by: java.sql.SQLNonTransientConnectionException: Public Key Retrieval is 
 	at org.springframework.aop.support.DelegatingIntroductionInterceptor.invoke(DelegatingIntroductionInterceptor.java:124)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:689)
-	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$d901b904.getConnection(<generated>)
+	at com.zaxxer.hikari.HikariDataSource$$EnhancerBySpringCGLIB$$7f451a20.getConnection(<generated>)
 	at org.springframework.jdbc.datasource.DataSourceUtils.fetchConnection(DataSourceUtils.java:158)
 	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:116)
 	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:79)
-	... 19 common frames omitted
-2021-07-09 17:42:24,996 INFO (DiscoveryClient.java:844)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951: registering service...
-2021-07-09 17:42:26,073 INFO (EurekaServiceRegistry.java:65)- Unregistering application HOSPITAL-DOCTOR with eureka with status DOWN
-2021-07-09 17:42:26,077 INFO (ExecutorConfigurationSupport.java:208)- Shutting down ExecutorService 'applicationTaskExecutor'
-2021-07-09 17:42:26,202 INFO (DiscoveryClient.java:906)- Shutting down DiscoveryClient ...
-2021-07-09 17:42:26,787 INFO (DiscoveryClient.java:976)- Disable delta property : false
-2021-07-09 17:42:26,788 INFO (DiscoveryClient.java:977)- Single vip registry refresh property : null
-2021-07-09 17:42:26,788 INFO (DiscoveryClient.java:978)- Force full registry fetch : false
-2021-07-09 17:42:26,789 INFO (DiscoveryClient.java:979)- Application is null : false
-2021-07-09 17:42:26,789 INFO (DiscoveryClient.java:980)- Registered Applications size is zero : true
-2021-07-09 17:42:26,790 INFO (DiscoveryClient.java:982)- Application version is -1: true
-2021-07-09 17:42:26,790 INFO (DiscoveryClient.java:1065)- Getting all instance registry info from the eureka server
-2021-07-09 17:42:27,863 ERROR (RedirectingEurekaHttpClient.java:83)- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+	... 18 common frames omitted
+2021-08-03 17:28:24,568 INFO (DiscoveryClient.java:844)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951: registering service...
+2021-08-03 17:28:26,347 INFO (DiscoveryClient.java:976)- Disable delta property : false
+2021-08-03 17:28:26,348 INFO (DiscoveryClient.java:977)- Single vip registry refresh property : null
+2021-08-03 17:28:26,349 INFO (DiscoveryClient.java:978)- Force full registry fetch : false
+2021-08-03 17:28:26,349 INFO (DiscoveryClient.java:979)- Application is null : false
+2021-08-03 17:28:26,349 INFO (DiscoveryClient.java:980)- Registered Applications size is zero : true
+2021-08-03 17:28:26,350 INFO (DiscoveryClient.java:982)- Application version is -1: true
+2021-08-03 17:28:26,350 INFO (DiscoveryClient.java:1065)- Getting all instance registry info from the eureka server
+2021-08-03 17:28:27,432 ERROR (RedirectingEurekaHttpClient.java:83)- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
@@ -820,8 +806,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:864)
 	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1423)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
@@ -844,9 +829,9 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
-	... 28 common frames omitted
-2021-07-09 17:42:27,864 WARN (RetryableEurekaHttpClient.java:130)- Request execution failed with message: java.net.ConnectException: Connection refused: connect
-2021-07-09 17:42:27,864 ERROR (DiscoveryClient.java:878)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951 - was unable to send heartbeat!
+	... 27 common frames omitted
+2021-08-03 17:28:27,433 WARN (RetryableEurekaHttpClient.java:130)- Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2021-08-03 17:28:27,433 ERROR (DiscoveryClient.java:878)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951 - was unable to send heartbeat!
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89)
@@ -856,24 +841,22 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:864)
 	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1423)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-07-09 17:42:28,802 WARN (TimedSupervisorTask.java:71)- task supervisor timed out
+2021-08-03 17:28:28,352 WARN (TimedSupervisorTask.java:71)- task supervisor timed out
 java.util.concurrent.TimeoutException: null
 	at java.util.concurrent.FutureTask.get(FutureTask.java:205)
 	at com.netflix.discovery.TimedSupervisorTask.run(TimedSupervisorTask.java:66)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-07-09 17:42:29,097 ERROR (RedirectingEurekaHttpClient.java:83)- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+2021-08-03 17:28:28,679 ERROR (RedirectingEurekaHttpClient.java:83)- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
@@ -900,8 +883,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
@@ -926,9 +908,9 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
-	... 31 common frames omitted
-2021-07-09 17:42:29,098 WARN (RetryableEurekaHttpClient.java:130)- Request execution failed with message: java.net.ConnectException: Connection refused: connect
-2021-07-09 17:42:29,098 WARN (DiscoveryClient.java:849)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951 - registration failed Cannot execute request on any known server
+	... 30 common frames omitted
+2021-08-03 17:28:28,679 WARN (RetryableEurekaHttpClient.java:130)- Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2021-08-03 17:28:28,679 WARN (DiscoveryClient.java:849)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951 - registration failed Cannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
@@ -939,14 +921,13 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-07-09 17:42:29,098 WARN (InstanceInfoReplicator.java:125)- There was a problem with the instance info replicator
+2021-08-03 17:28:28,680 WARN (InstanceInfoReplicator.java:125)- There was a problem with the instance info replicator
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.register(EurekaHttpClientDecorator.java:56)
@@ -957,15 +938,13 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at com.netflix.discovery.InstanceInfoReplicator.run(InstanceInfoReplicator.java:121)
 	at com.netflix.discovery.InstanceInfoReplicator$1.run(InstanceInfoReplicator.java:101)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(ScheduledThreadPoolExecutor.java:180)
 	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:293)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-07-09 17:42:29,098 INFO (DiscoveryClient.java:940)- Unregistering ...
-2021-07-09 17:42:30,875 ERROR (RedirectingEurekaHttpClient.java:83)- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
+2021-08-03 17:28:30,438 ERROR (RedirectingEurekaHttpClient.java:83)- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
 com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
 	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
@@ -994,8 +973,7 @@ com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Con
 	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1497)
 	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1464)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
@@ -1018,9 +996,9 @@ Caused by: java.net.ConnectException: Connection refused: connect
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
 	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
 	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
-	... 31 common frames omitted
-2021-07-09 17:42:30,876 WARN (RetryableEurekaHttpClient.java:130)- Request execution failed with message: java.net.ConnectException: Connection refused: connect
-2021-07-09 17:42:30,877 ERROR (DiscoveryClient.java:990)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951 - was unable to refresh its cache! status = Cannot execute request on any known server
+	... 30 common frames omitted
+2021-08-03 17:28:30,438 WARN (RetryableEurekaHttpClient.java:130)- Request execution failed with message: java.net.ConnectException: Connection refused: connect
+2021-08-03 17:28:30,438 ERROR (DiscoveryClient.java:990)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951 - was unable to refresh its cache! status = Cannot execute request on any known server
 com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
 	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
 	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.getApplications(EurekaHttpClientDecorator.java:134)
@@ -1032,104 +1010,7 @@ com.netflix.discovery.shared.transport.TransportException: Cannot execute reques
 	at com.netflix.discovery.DiscoveryClient.refreshRegistry(DiscoveryClient.java:1497)
 	at com.netflix.discovery.DiscoveryClient$CacheRefreshThread.run(DiscoveryClient.java:1464)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
-	at java.util.concurrent.FutureTask.run$$$capture(FutureTask.java:266)
-	at java.util.concurrent.FutureTask.run(FutureTask.java)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2021-07-09 17:42:33,215 ERROR (RedirectingEurekaHttpClient.java:83)- Request execution error. endpoint=DefaultEndpoint{ serviceUrl='http://localhost:8761/eureka/}
-com.sun.jersey.api.client.ClientHandlerException: java.net.ConnectException: Connection refused: connect
-	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:187)
-	at com.sun.jersey.api.client.filter.GZIPContentEncodingFilter.handle(GZIPContentEncodingFilter.java:123)
-	at com.netflix.discovery.EurekaIdentityHeaderFilter.handle(EurekaIdentityHeaderFilter.java:27)
-	at com.sun.jersey.api.client.Client.handle(Client.java:652)
-	at com.sun.jersey.api.client.WebResource.handle(WebResource.java:682)
-	at com.sun.jersey.api.client.WebResource.access$200(WebResource.java:74)
-	at com.sun.jersey.api.client.WebResource$Builder.delete(WebResource.java:591)
-	at com.netflix.discovery.shared.transport.jersey.AbstractJerseyEurekaHttpClient.cancel(AbstractJerseyEurekaHttpClient.java:76)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.MetricsCollectingEurekaHttpClient.execute(MetricsCollectingEurekaHttpClient.java:73)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.executeOnNewServer(RedirectingEurekaHttpClient.java:118)
-	at com.netflix.discovery.shared.transport.decorator.RedirectingEurekaHttpClient.execute(RedirectingEurekaHttpClient.java:79)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:120)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:941)
-	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:919)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:321)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:156)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:235)
-	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
-	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1040)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1033)
-	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
-	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-	at java.net.Socket.connect(Socket.java:589)
-	at org.apache.http.conn.scheme.PlainSocketFactory.connectSocket(PlainSocketFactory.java:121)
-	at org.apache.http.impl.conn.DefaultClientConnectionOperator.openConnection(DefaultClientConnectionOperator.java:180)
-	at org.apache.http.impl.conn.AbstractPoolEntry.open(AbstractPoolEntry.java:144)
-	at org.apache.http.impl.conn.AbstractPooledConnAdapter.open(AbstractPooledConnAdapter.java:134)
-	at org.apache.http.impl.client.DefaultRequestDirector.tryConnect(DefaultRequestDirector.java:605)
-	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:440)
-	at org.apache.http.impl.client.AbstractHttpClient.doExecute(AbstractHttpClient.java:835)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:118)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
-	at com.sun.jersey.client.apache4.ApacheHttpClient4Handler.handle(ApacheHttpClient4Handler.java:173)
-	... 42 common frames omitted
-2021-07-09 17:42:33,215 WARN (RetryableEurekaHttpClient.java:130)- Request execution failed with message: java.net.ConnectException: Connection refused: connect
-2021-07-09 17:42:33,215 ERROR (DiscoveryClient.java:944)- DiscoveryClient_HOSPITAL-DOCTOR/DESKTOP-MJOOQ62:hospital-doctor:9951 - de-registration failedCannot execute request on any known server
-com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
-	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74)
-	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77)
-	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71)
-	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:941)
-	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:919)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:363)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:321)
-	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:156)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:242)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:235)
-	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:403)
-	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:142)
-	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:258)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:571)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:543)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1040)
-	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:504)
-	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1033)
-	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1057)
-	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1026)
-	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:945)
-2021-07-09 17:42:33,222 INFO (DiscoveryClient.java:929)- Completed shut down of DiscoveryClient

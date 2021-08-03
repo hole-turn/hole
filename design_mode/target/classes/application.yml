@@ -22,6 +22,9 @@ spring:
   mvc:
     throw-exception-if-no-handler-found: true
   datasource:
+    url: jdbc:mysql://127.0.0.1:3306/exam?serverTimezone=GMT%2B8&amp&useSSL=false&useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: admroot
     driver-class-name: com.mysql.cj.jdbc.Driver
 
 #配置日志地址
@@ -36,7 +39,7 @@ logging:
 # mybatis
 mybatis-plus:
   #实体扫描，多个package用逗号或者分号分隔
-  typeAliasesPackage: com.jyy.modules.**.bean
+  typeAliasesPackage: com.xlh.modules.**.bean
   #typeEnumsPackage: org.springblade.dashboard.bean.enums
   global-config:
     # 关闭MP3.0自带的banner
