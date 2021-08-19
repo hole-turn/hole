@@ -12,6 +12,11 @@
       <option name="url" value="http://nexus.91medicine.net/repository/maven-public/" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="snapshots" />
       <option name="name" value="maven-snapshots" />
       <option name="url" value="http://nexus.91medicine.net/repository/maven-public/" />
@@ -22,9 +27,19 @@
       <option name="url" value="https://repo1.maven.org/maven2" />
     </remote-repository>
     <remote-repository>
+      <option name="id" value="releases" />
+      <option name="name" value="maven-releases" />
+      <option name="url" value="http://nexus.91medicine.net/repository/maven-releases/" />
+    </remote-repository>
+    <remote-repository>
       <option name="id" value="jboss.community" />
       <option name="name" value="JBoss Community repository" />
       <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="snapshots" />
+      <option name="name" value="maven-snapshots" />
+      <option name="url" value="http://nexus.91medicine.net/repository/maven-snapshots/" />
     </remote-repository>
     <remote-repository>
       <option name="id" value="maven-public" />

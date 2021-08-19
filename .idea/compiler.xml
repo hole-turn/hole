@@ -7,15 +7,25 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="common" />
-        <module name="design_mode" />
-        <module name="eureka" />
+        <module name="common-datascopes" />
+        <module name="common-security" />
+        <module name="system" />
+        <module name="common-swagger" />
+        <module name="common-log" />
+        <module name="common-redis" />
+        <module name="common-core" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common-datascope" target="1.8" />
+      <module name="design_mode" target="1.8" />
+      <module name="eureka" target="1.8" />
+      <module name="security-common" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="common" options="-parameters" />
+      <module name="common" options="" />
       <module name="design_mode" options="-parameters -parameters" />
       <module name="eureka" options="-parameters" />
     </option>

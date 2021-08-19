@@ -1,0 +1,4 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+  com.xlh.common.datascope.aspect.DataScopeAspect
+
+  
