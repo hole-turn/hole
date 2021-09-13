@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-core/common-core.iml" filepath="$PROJECT_DIR$/common/common-core/common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-datascopes/common-datascopes.iml" filepath="$PROJECT_DIR$/common/common-datascopes/common-datascopes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-log/common-log.iml" filepath="$PROJECT_DIR$/common/common-log/common-log.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-redis/common-redis.iml" filepath="$PROJECT_DIR$/common/common-redis/common-redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-security/common-security.iml" filepath="$PROJECT_DIR$/common/common-security/common-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-swagger/common-swagger.iml" filepath="$PROJECT_DIR$/common/common-swagger/common-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gateway/gateway.iml" filepath="$PROJECT_DIR$/gateway/gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hole.iml" filepath="$PROJECT_DIR$/.idea/hole.iml" />
+      <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/system/system.iml" filepath="$PROJECT_DIR$/api/system/system.iml" />
+    </modules>
+  </component>
+</project>

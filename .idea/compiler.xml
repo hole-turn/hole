@@ -2,7 +2,6 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -10,24 +9,27 @@
         <module name="common-datascopes" />
         <module name="common-security" />
         <module name="system" />
+        <module name="jwt" />
         <module name="common-swagger" />
         <module name="common-log" />
         <module name="common-redis" />
+        <module name="gateway" />
         <module name="common-core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="common-datascope" target="1.8" />
-      <module name="design_mode" target="1.8" />
-      <module name="eureka" target="1.8" />
-      <module name="security-common" target="1.8" />
+      <module name="api" target="1.8" />
+      <module name="common" target="1.8" />
+      <module name="common-core" target="1.8" />
+      <module name="common-datascopes" target="1.8" />
+      <module name="common-log" target="1.8" />
+      <module name="common-redis" target="1.8" />
+      <module name="common-security" target="1.8" />
+      <module name="common-swagger" target="1.8" />
+      <module name="gateway" target="1.8" />
+      <module name="hole" target="1.8" />
+      <module name="jwt" target="1.8" />
+      <module name="system" target="1.8" />
     </bytecodeTargetLevel>
-  </component>
-  <component name="JavacSettings">
-    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="common" options="" />
-      <module name="design_mode" options="-parameters -parameters" />
-      <module name="eureka" options="-parameters" />
-    </option>
   </component>
 </project>

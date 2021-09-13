@@ -6,6 +6,8 @@
     <modules>
         <module>common</module>
         <module>api</module>
+        <module>gateway</module>
+        <module>jwt</module>
     </modules>
 
     <groupId>com.xlh</groupId>
@@ -86,12 +88,13 @@
                 <scope>import</scope>
             </dependency>
 
-            <!--  SpringBoot 监控客户端 -->
+            <!-- https://mvnrepository.com/artifact/de.codecentric/spring-boot-admin-starter-client -->
             <dependency>
                 <groupId>de.codecentric</groupId>
-                <artifactId>spring-boot-admin-starter-client</artifactId>
+                <artifactId>spring-boot-admin-starter-server</artifactId>
                 <version>${spring-boot-admin.version}</version>
             </dependency>
+
 
             <!-- FastDFS 分布式文件系统 -->
             <dependency>

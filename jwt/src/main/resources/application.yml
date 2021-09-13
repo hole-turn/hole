@@ -1,0 +1,18 @@
+server:
+  port: 8888
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/hole?serverTimezone=GMT%2B8&amp&useSSL=false&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
+    username: root
+    password: admroot
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
+swagger2:
+  enable: true
+logging:
+  config: classpath:log4j2.xml
+  level:
+    cn.jay.repository: trace
+

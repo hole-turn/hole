@@ -21,7 +21,7 @@
         <module>common-log</module>
         <module>common-redis</module>
         <module>common-swagger</module>
-        <module>common-datascope</module>
+        <module>common-datascopes</module>
     </modules>
 
 </project>
