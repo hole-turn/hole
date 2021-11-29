@@ -85,4 +85,8 @@ public class TMeetingDataEntity extends Model<TMeetingDataEntity> {
 	 */
 	private Time meetTime;
 
+	private String serviceObj;
+
+	private String meetingMemberIds;
+
 }

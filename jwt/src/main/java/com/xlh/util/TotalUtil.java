@@ -40,7 +40,7 @@ public class TotalUtil {
         Random random = new Random();
 
         if ((splitCount & 1) == 1) {
-            System.out.println("个数" + splitCount + "是奇数，单独生成");
+            System.out.println("个数" + splitCount + "是奇数，单独生成");     
             int num = 0;
             do {
                 num = random.nextInt(max);

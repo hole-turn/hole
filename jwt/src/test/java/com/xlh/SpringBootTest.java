@@ -86,27 +86,30 @@ public class SpringBootTest {
     @Test
     public void insert() {
 
+        int n = RandomUtil.randomInt(280, 400);
+//        method(450,3600,"2021-09-01","2021-09-30");
+        method(278,2920,"2021-10-01", "2021-10-31");
 
-        int n = RandomUtil.randomInt(20, 22);
 
-        method(n, 559, "2020-09-01", "2020-09-30");
-        method(n, 532, "2020-10-01", "2020-10-31");
-        method(n, 581, "2020-11-01", "2020-11-30");
-        method(n, 564, "2020-12-01", "2020-12-31");
-        method(n, 560, "2021-01-01", "2021-1-31");
-        method(n, 574, "2021-02-01", "2021-02-28");
-        method(n, 586, "2021-03-01", "2021-03-31");
-        method(n, 575, "2021-04-01", "2021-04-30");
-        method(n, 576, "2021-05-01", "2021-05-31");
-        method(n, 577, "2021-06-01", "2021-06-30");
-        method(n, 580, "2021-07-01", "2021-07-31");
-        method(n, 559, "2021-08-01", "2021-08-31");
-        method(n, 560, "2021-09-01", "2021-09-30");
-        method(n, 563, "2021-10-01", "2021-10-31");
+//        method(n, 559, "2020-09-01", "2020-09-30");
+//        method(n, 532, "2020-10-01", "2020-10-31");
+//        method(n, 581, "2020-11-01", "2020-11-30");
+//        method(n, 564, "2020-12-01", "2020-12-31");
+//        method(n, 560, "2021-01-01", "2021-1-31");
+//        method(n, 574, "2021-02-01", "2021-02-28");
+//        method(n, 586, "2021-03-01", "2021-03-31");
+//        method(n, 575, "2021-04-01", "2021-04-30");
+//        method(n, 576, "2021-05-01", "2021-05-31");
+//        method(n, 577, "2021-06-01", "2021-06-30");
+//        method(n, 580, "2021-07-01", "2021-07-31");
+//        method(n, 559, "2021-08-01", "2021-08-31");
+//        method(n, 560, "2021-09-01", "2021-09-30");
+//        method(n, 563, "2021-10-01", "2021-10-31");
+
     }
 
     private void method(int n, int sum, String startDate, String endDate) {
-        ArrayList<Integer> integers = TotalUtil.splitTotal(sum, n, 3, 50);
+        ArrayList<Integer> integers = TotalUtil.splitTotal(sum, n, 6, 15);
 
         for (int i = 0; i < n; i++) {
 
@@ -148,14 +151,19 @@ public class SpringBootTest {
             HospitalMeetingVo random = hospitalMeetingDataMapper.getRandom();
 
             StringBuilder sb = new StringBuilder();
+            StringBuilder sb2 = new StringBuilder();
             for (int integer = 0; integer < integers.get(i); integer++) {
 
                 String name = hospitalMeetingDataMapper.getName();
                 sb.append(name).append(",");
+
+                Integer id = hospitalMeetingDataMapper.getId();
+                sb2.append(id).append(",");
             }
             String s = sb.toString();
             String substring = s.substring(0, s.length() - 1);
-
+            String string = sb2.toString();
+            String sub = string.substring(0, string.length() - 1);
 
             entity.setMeetingDate(date)
                     .setMeetingDateStart(date)
@@ -169,6 +177,8 @@ public class SpringBootTest {
                     .setCostSettle(new BigDecimal(300).multiply(new BigDecimal(integers.get(i))))
                     .setIntegral(300 * integers.get(i))
                     .setMeetingMembers(substring)
+                    .setMeetingMemberIds(sub)
+                    .setServiceObj("西藏康馨药业有限公司")
 
             ;
 
@@ -190,15 +200,14 @@ public class SpringBootTest {
     }
 
 
-
     @Test
-    public void customer(){
+    public void customer() {
         List<TCustomerDataEntity> tCustomerDataEntities = customerDataMapper.selectList(Wrappers.<TCustomerDataEntity>lambdaQuery().isNull(TCustomerDataEntity::getCreateTime));
 //        List<TCustomerDataEntity> tCustomerDataEntities = customerDataMapper.selectList(null);
 
-        tCustomerDataEntities.stream().forEach(s ->{
+        tCustomerDataEntities.stream().forEach(s -> {
             s.setCreateTime(DateRandom.getDateRandom("2021-10-01", "2021-10-31"));
-            s.setOrigin(RandomUtil.randomInt(0,3));
+            s.setOrigin(RandomUtil.randomInt(0, 3));
             s.updateById();
         });
     }

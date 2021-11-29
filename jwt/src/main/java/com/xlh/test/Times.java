@@ -35,10 +35,16 @@ public class Times {
 //        int a = DateUtil.ageOfNow(age);
 //        System.out.println(a);
 //        System.out.println(a<=6);
-        Calendar calendar = DateUtil.calendar(new Date());
-        calendar.add(Calendar.DATE, -2);
-        Date time = calendar.getTime();
-        System.out.println(time);
+//        Calendar calendar = DateUtil.calendar(new Date());
+//        calendar.add(Calendar.DATE, -2);
+//        Date time = calendar.getTime();
+//        System.out.println(time);
+//        String str="01234567899876543210aaa";
+//        String substring = str.substring(0, 20);
+//        System.out.println(substring);
+
+        String format = String.format("%04d", 100);
+        System.out.println("JG"+format);
 
     }
 }

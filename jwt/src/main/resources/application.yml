@@ -3,12 +3,12 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/medicine_cloud?serverTimezone=GMT%2B8&amp&useSSL=false&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
-    username: root
-    password: admroot
-#    url: jdbc:mysql://dev-mysql.91medicine.net:145/medicine_cloud?serverTimezone=GMT%2B8&amp&useSSL=false&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
-#    username: jwkj
-#    password: Jwkj2020!!@
+#    url: jdbc:mysql://localhost:3306/medicine_cloud?serverTimezone=GMT%2B8&amp&useSSL=false&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
+#    username: root
+#    password: admroot
+    url: jdbc:mysql://dev-mysql.91medicine.net:145/medicine_cloud?serverTimezone=GMT%2B8&amp&useSSL=false&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true
+    username: jwkj
+    password: Jwkj2020!!@
 mybatis-plus:
   configuration:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl #开启sql日志
