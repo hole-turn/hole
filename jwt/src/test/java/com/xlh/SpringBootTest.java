@@ -4,13 +4,8 @@ package com.xlh;
 import cn.hutool.core.date.DateUtil;
 import cn.hutool.core.util.RandomUtil;
 import com.baomidou.mybatisplus.core.toolkit.Wrappers;
-import com.xlh.entity.TCustomerDataEntity;
-import com.xlh.entity.TMeetingDataEntity;
-import com.xlh.entity.User;
-import com.xlh.mapper.TCustomerDataMapper;
-import com.xlh.mapper.THospitalMeetingDataMapper;
-import com.xlh.mapper.TMeetingDataMapper;
-import com.xlh.mapper.UserMapper;
+import com.xlh.entity.*;
+import com.xlh.mapper.*;
 import com.xlh.service.TMeetingDataService;
 import com.xlh.util.DateRandom;
 import com.xlh.util.ShareCodeUtil;
@@ -22,10 +17,7 @@ import javax.annotation.Resource;
 import java.math.BigDecimal;
 import java.sql.Time;
 import java.time.LocalDateTime;
-import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
+import java.util.*;
 import java.util.concurrent.atomic.AtomicInteger;
 
 /**
@@ -50,6 +42,9 @@ public class SpringBootTest {
 
     @Resource
     private THospitalMeetingDataMapper hospitalMeetingDataMapper;
+
+    @Resource
+    private ExtraInfoMapper extraInfoMapper;
 
     @Test
     public void test() {
@@ -210,6 +205,48 @@ public class SpringBootTest {
             s.setOrigin(RandomUtil.randomInt(0, 3));
             s.updateById();
         });
+    }
+
+    @Test
+    public void extraDelete(){
+
+        ExtraNode extraNode=new ExtraNode();
+        extraNode.setId(1);
+        extraNode.setName("a1");
+        ExtraNode extraNode2=new ExtraNode();
+        extraNode2.setId(2);
+        extraNode2.setName("a2");
+        List<ExtraNode> extraNodes = Arrays.asList(extraNode, extraNode2);
+
+        ExtraInfo extraInfo=new ExtraInfo();
+        extraInfo.setId(2);
+        extraInfo.setExtraList(extraNodes);
+
+        extraInfoMapper.insert(extraInfo);
+    }
+    @Test
+    public void extraDelete2(){
+
+        ExtraNode extraNode=new ExtraNode();
+        extraNode.setId(1);
+        extraNode.setName("a1");
+        ExtraNode extraNode2=new ExtraNode();
+        extraNode2.setId(2);
+        extraNode2.setName("a2");
+        ExtraNode extraNode3=new ExtraNode();
+        extraNode3.setId(3);
+        extraNode3.setName("a3");
+        List<ExtraNode> extraNodes = Arrays.asList(extraNode, extraNode2,extraNode3);
+
+        ExtraInfo extraInfo = extraInfoMapper.selectById(1);
+        extraInfo.setExtraList(extraNodes);
+        extraInfoMapper.updateById(extraInfo);
+    }
+
+    @Test
+    public void test44(){
+        List<ExtraInfo> info = extraInfoMapper.getInfo();
+        System.out.println(info);
     }
 
 }
