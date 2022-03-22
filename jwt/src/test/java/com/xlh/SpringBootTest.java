@@ -10,7 +10,9 @@ import com.xlh.service.TMeetingDataService;
 import com.xlh.util.DateRandom;
 import com.xlh.util.ShareCodeUtil;
 import com.xlh.util.TotalUtil;
+import com.xlh.util.UUIDUtils;
 import com.xlh.vo.HospitalMeetingVo;
+import org.apache.logging.log4j.core.util.UuidUtil;
 import org.junit.jupiter.api.Test;
 
 import javax.annotation.Resource;
@@ -46,6 +48,17 @@ public class SpringBootTest {
     @Resource
     private ExtraInfoMapper extraInfoMapper;
 
+
+    @Test
+    public void extraInfo(){
+        ExtraInfo extraInfo=new ExtraInfo();
+        ExtraNode extraNode=new ExtraNode();
+        extraNode.setId(55);
+        extraNode.setName("22");
+        extraInfo.setExtraList(Collections.singletonList(extraNode));
+        extraInfoMapper.insert(extraInfo);
+    }
+
     @Test
     public void test() {
         User user = new User();
@@ -54,6 +67,9 @@ public class SpringBootTest {
         user.setPhone("13396635482");
         user.setCreateTime(LocalDateTime.now());
         user.setUpdateTime(LocalDateTime.now());
+        String s = UUIDUtils.generateUUID();
+        user.setUuid(s);
+        System.out.println(s);
         userMapper.insert(user);
     }
 
@@ -81,9 +97,9 @@ public class SpringBootTest {
     @Test
     public void insert() {
 
-        int n = RandomUtil.randomInt(280, 400);
+        int n = RandomUtil.randomInt(40,60);
 //        method(450,3600,"2021-09-01","2021-09-30");
-        method(278,2920,"2021-10-01", "2021-10-31");
+//        method(278,2920,"2021-11-01", "2021-11-30");
 
 
 //        method(n, 559, "2020-09-01", "2020-09-30");
@@ -100,6 +116,7 @@ public class SpringBootTest {
 //        method(n, 559, "2021-08-01", "2021-08-31");
 //        method(n, 560, "2021-09-01", "2021-09-30");
 //        method(n, 563, "2021-10-01", "2021-10-31");
+        method(n, 593, "2021-11-01", "2021-11-30");
 
     }
 
@@ -143,7 +160,10 @@ public class SpringBootTest {
             Time time = Time.valueOf(DateRandom.minuteToHHMMSS(timeNumRandom));
 
             //随机生成医院 级别
-            HospitalMeetingVo random = hospitalMeetingDataMapper.getRandom();
+//            HospitalMeetingVo random = hospitalMeetingDataMapper.getRandom();
+
+            //随机生成医院 级别 除去重庆等城市
+            HospitalMeetingVo random = hospitalMeetingDataMapper.getLRandom();
 
             StringBuilder sb = new StringBuilder();
             StringBuilder sb2 = new StringBuilder();
@@ -173,7 +193,7 @@ public class SpringBootTest {
                     .setIntegral(300 * integers.get(i))
                     .setMeetingMembers(substring)
                     .setMeetingMemberIds(sub)
-                    .setServiceObj("西藏康馨药业有限公司")
+                    .setServiceObj("弘和制药有限公司")
 
             ;
 
@@ -207,46 +227,46 @@ public class SpringBootTest {
         });
     }
 
-    @Test
-    public void extraDelete(){
-
-        ExtraNode extraNode=new ExtraNode();
-        extraNode.setId(1);
-        extraNode.setName("a1");
-        ExtraNode extraNode2=new ExtraNode();
-        extraNode2.setId(2);
-        extraNode2.setName("a2");
-        List<ExtraNode> extraNodes = Arrays.asList(extraNode, extraNode2);
-
-        ExtraInfo extraInfo=new ExtraInfo();
-        extraInfo.setId(2);
-        extraInfo.setExtraList(extraNodes);
-
-        extraInfoMapper.insert(extraInfo);
-    }
-    @Test
-    public void extraDelete2(){
-
-        ExtraNode extraNode=new ExtraNode();
-        extraNode.setId(1);
-        extraNode.setName("a1");
-        ExtraNode extraNode2=new ExtraNode();
-        extraNode2.setId(2);
-        extraNode2.setName("a2");
-        ExtraNode extraNode3=new ExtraNode();
-        extraNode3.setId(3);
-        extraNode3.setName("a3");
-        List<ExtraNode> extraNodes = Arrays.asList(extraNode, extraNode2,extraNode3);
-
-        ExtraInfo extraInfo = extraInfoMapper.selectById(1);
-        extraInfo.setExtraList(extraNodes);
-        extraInfoMapper.updateById(extraInfo);
-    }
-
-    @Test
-    public void test44(){
-        List<ExtraInfo> info = extraInfoMapper.getInfo();
-        System.out.println(info);
-    }
+//    @Test
+//    public void extraDelete(){
+//
+//        ExtraNode extraNode=new ExtraNode();
+//        extraNode.setId(1);
+//        extraNode.setName("a1");
+//        ExtraNode extraNode2=new ExtraNode();
+//        extraNode2.setId(2);
+//        extraNode2.setName("a2");
+//        List<ExtraNode> extraNodes = Arrays.asList(extraNode, extraNode2);
+//
+//        ExtraInfo extraInfo=new ExtraInfo();
+//        extraInfo.setId(2);
+//        extraInfo.setExtraList(extraNodes);
+//
+//        extraInfoMapper.insert(extraInfo);
+//    }
+//    @Test
+//    public void extraDelete2(){
+//
+//        ExtraNode extraNode=new ExtraNode();
+//        extraNode.setId(1);
+//        extraNode.setName("a1");
+//        ExtraNode extraNode2=new ExtraNode();
+//        extraNode2.setId(2);
+//        extraNode2.setName("a2");
+//        ExtraNode extraNode3=new ExtraNode();
+//        extraNode3.setId(3);
+//        extraNode3.setName("a3");
+//        List<ExtraNode> extraNodes = Arrays.asList(extraNode, extraNode2,extraNode3);
+//
+//        ExtraInfo extraInfo = extraInfoMapper.selectById(1);
+//        extraInfo.setExtraList(extraNodes);
+//        extraInfoMapper.updateById(extraInfo);
+//    }
+//
+//    @Test
+//    public void test44(){
+//        List<ExtraInfo> info = extraInfoMapper.getInfo();
+//        System.out.println(info);
+//    }
 
 }
