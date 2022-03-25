@@ -1,9 +1,14 @@
 package com.xlh.test;
 
+import cn.hutool.core.collection.CollUtil;
+import cn.hutool.core.convert.Convert;
 import cn.hutool.core.date.DatePattern;
 import cn.hutool.core.date.LocalDateTimeUtil;
+import io.swagger.models.auth.In;
 
 import java.time.LocalDate;
+import java.util.Date;
+import java.util.List;
 
 /**
  * @author: xielinhao
@@ -59,14 +64,14 @@ public class Times {
 //        System.out.println(s1.substring(0, s1.length() - 1));
 //        String yyyyMMdd = LocalDateTimeUtil.format(LocalDateTime.now(), "yyyyMMdd");
 //        System.out.println(yyyyMMdd);
-        LocalDate localDate = LocalDateTimeUtil.parseDate("2022-03-01", DatePattern.NORM_DATE_PATTERN);
+//        LocalDate localDate = LocalDateTimeUtil.parseDate("2022-03-01", DatePattern.NORM_DATE_PATTERN);
 //        LocalDate localDate2 = LocalDateTimeUtil.parseDate("2022-03-02", "yyyy-MM-dd");
 //        System.out.println(localDate);
 //        System.out.println(localDate.isBefore(LocalDate.now()));
 
-        int i = localDate.compareTo(LocalDate.now());//当天为0 当天后+  当天前-
-        System.out.println(i);
-        System.out.println(localDate.compareTo(LocalDate.now())<0);
+//        int i = localDate.compareTo(LocalDate.now());//当天为0 当天后+  当天前-
+//        System.out.println(i);
+//        System.out.println(localDate.compareTo(LocalDate.now())<0);
 
 //        LocalDateTime parse = LocalDateTimeUtil.parse("2022-03-01 12:50:01", "yyyy-MM-dd HH:mm:ss");
 //        System.out.println(parse);
@@ -74,5 +79,21 @@ public class Times {
 
 //        String a="abcd";
 //        System.out.println(a.substring(0, a.length() - 1));
+
+
+//        String a ="J20.000|肺炎支原体急性支气管炎,J20.200|链球菌急性支气管炎,J00.x00|急性鼻咽炎";
+//        String[] split = a.split(",");
+//        StringBuilder icdCode =new StringBuilder();
+//        StringBuilder icdValue =new StringBuilder();
+//        for (int i = 0; i < split.length; i++) {
+//            icdCode.append(split[i].split("\\|")[0]).append("|");
+//            icdValue.append(split[i].split("\\|")[1]).append("，");
+//        }
+//        String substring = icdCode.substring(0, icdCode.length()-1);
+//        String substring2 = icdValue.substring(0, icdValue.length()-1);
+//        System.out.println(substring);
+//        System.out.println(substring2);
+
+
     }
 }
