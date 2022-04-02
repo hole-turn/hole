@@ -16,12 +16,53 @@ public class CompletableFutureApiDemo {
     @SneakyThrows
     public static void main(String[] args) {
 
+
+    }
+
+    private static void m6() {
+        System.out.println(CompletableFuture.supplyAsync(() -> {
+            return 10;
+        }).thenCompose(i -> {
+
+            return CompletableFuture.supplyAsync(() -> i*3);
+        }).join());
+    }
+
+    private static void m5() {
+        System.out.println(CompletableFuture.supplyAsync(() -> 10)
+                .thenCombine(CompletableFuture.supplyAsync(() -> 3), Integer::sum)
+                .thenApply(a -> a*2)
+                .thenCombine(CompletableFuture.supplyAsync(() -> 30),(r1, r2) -> r1*r2).join());
+    }
+
+    private static void m4() throws InterruptedException {
+        System.out.println(CompletableFuture.supplyAsync(() -> {
+            try {
+                TimeUnit.SECONDS.sleep(3);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("task1");
+            return 10;
+        }).applyToEither(CompletableFuture.supplyAsync(() -> {
+            try {
+                TimeUnit.SECONDS.sleep(4);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            System.out.println("task2");
+            return 20;
+        }), r -> r).join());
+
+        TimeUnit.SECONDS.sleep(5);
+    }
+
+    private static void m3() {
         CompletableFuture
                 .supplyAsync(() -> 2)
                 .thenApply(f -> f+2)
                 .thenApply(f ->f*4)
                 .thenAccept(System.out::println);
-
     }
 
     private static void two() {

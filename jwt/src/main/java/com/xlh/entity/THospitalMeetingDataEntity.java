@@ -12,8 +12,6 @@ import lombok.Data;
 /**
  * 会议医院表
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
  * @date 2021-11-14 15:28:35
  */
 @Data

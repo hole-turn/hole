@@ -7,8 +7,6 @@ import org.apache.ibatis.annotations.Mapper;
 /**
  * 客户表
  * 
- * @author chenshun
- * @email sunlightcs@gmail.com
  * @date 2021-11-14 19:51:11
  */
 @Mapper
