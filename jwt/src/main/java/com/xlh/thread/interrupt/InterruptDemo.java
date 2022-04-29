@@ -15,6 +15,10 @@ public class InterruptDemo {
 
     public static void main(String[] args) {
 
+        m4();
+    }
+
+    private static void m5() {
         Thread thread1 = new Thread(() -> {
             while (true) {
                 if (Thread.currentThread().isInterrupted()) {
@@ -49,7 +53,6 @@ public class InterruptDemo {
             e.printStackTrace();
         }
         new Thread(() -> thread1.interrupt(), "b").start();
-
     }
 
     private static void m4() {

@@ -62,8 +62,20 @@ public class D {
 //
 //        System.out.println(map.get(2));
 //        System.out.println("3".equals(null));
-        HashMap<String, String> map = Maps.newHashMap();
-        System.out.println("a".equalsIgnoreCase(map.get("a")));
+//        HashMap<String, String> map = Maps.newHashMap();
+//        System.out.println("a".equalsIgnoreCase(map.get("a")));
+
+        BigDecimal bigDecimal = new BigDecimal("100");
+
+        BigDecimal bigDecimal2 = new BigDecimal("101");
+
+        System.out.println(bigDecimal.compareTo(bigDecimal2));
+//        if (bigDecimal.compareTo(BigDecimal.ZERO) < 0) {
+//            if (bigDecimal.compareTo(BigDecimal.ZERO) <= 0) {
+//                System.out.println("111");
+//            }
+//        }
+
 
     }
 
