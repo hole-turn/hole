@@ -10,6 +10,7 @@
         <module name="common-datascopes" />
         <module name="common-security" />
         <module name="system" />
+        <module name="mq" />
         <module name="jwt" />
         <module name="common-swagger" />
         <module name="common-log" />
@@ -30,6 +31,7 @@
       <module name="gateway" target="1.8" />
       <module name="hole" target="1.8" />
       <module name="jwt" target="1.8" />
+      <module name="mq" target="8" />
       <module name="system" target="1.8" />
     </bytecodeTargetLevel>
   </component>
