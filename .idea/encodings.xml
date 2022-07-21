@@ -19,5 +19,8 @@
     <file url="file://$PROJECT_DIR$/gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jwt/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/jwt/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq-springboot/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mq/src/main/resources" charset="UTF-8" />
   </component>
 </project>

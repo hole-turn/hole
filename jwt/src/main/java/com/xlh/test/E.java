@@ -21,6 +21,7 @@ import java.io.InputStream;
 import java.math.BigDecimal;
 import java.net.URI;
 import java.net.URL;
+import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -70,8 +71,13 @@ public class E {
 //        }
 
 
-        System.out.println(IdcardUtil.getAgeByIdCard("110101201508076291"));
+//        System.out.println(IdcardUtil.getAgeByIdCard("110101201508076291"));
 
+//        System.out.println(3%4);
+
+        LocalDateTime expire = LocalDateTime.now().plusSeconds(1);
+        LocalDateTime now = LocalDateTime.now();
+        System.out.println(expire.isAfter(now));
     }
 
 }
