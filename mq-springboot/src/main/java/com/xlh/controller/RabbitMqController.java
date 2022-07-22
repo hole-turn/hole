@@ -1,5 +1,6 @@
 package com.xlh.controller;
 
+import com.xlh.config.RabbitTopicConfig;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -45,4 +46,18 @@ public class RabbitMqController {
         log.info("当前时间：{},发送一条时长{}毫秒 TTL 信息给队列 C:{}", new Date(), ttlTime, message);
     }
 
+
+    @GetMapping("topic/send")
+    public void topicSend(){
+        rabbitTemplate.convertAndSend(RabbitTopicConfig.TOPICNAME,
+                "xiaomi.news","小米新闻..");
+        rabbitTemplate.convertAndSend(RabbitTopicConfig.TOPICNAME,
+                "huawei.news","华为新闻..");
+        rabbitTemplate.convertAndSend(RabbitTopicConfig.TOPICNAME,
+                "xiaomi.phone","小米手机..");
+        rabbitTemplate.convertAndSend(RabbitTopicConfig.TOPICNAME,
+                "huawei.phone","华为手机..");
+        rabbitTemplate.convertAndSend(RabbitTopicConfig.TOPICNAME,
+                "phone.news","手机新闻..");
+    }
 }

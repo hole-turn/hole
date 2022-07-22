@@ -1,6 +1,8 @@
 package com.xlh.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.amqp.core.Message;
+import org.springframework.amqp.core.MessageBuilder;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,6 +10,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.nio.charset.StandardCharsets;
 import java.util.Date;
 
 /**
@@ -37,6 +40,16 @@ public class DelayedQueueController {
                 });
 
        log.info(" 当 前 时 间 ： {}, 发 送 一 条 延 迟 {} 毫秒的信息给队列 delayed.queue:{}", new Date(), delayTime, message);
+
+    }
+
+    @GetMapping("sendMsg")
+    public void sendMsg() {
+        Message message = MessageBuilder.withBody("这事一条延时队列消息".getBytes(StandardCharsets.UTF_8)).setHeader("x-delay", 3000).build();
+
+        rabbitTemplate.convertAndSend(DELAYED_EXCHANGE_NAME, DELAYED_ROUTING_KEY, message);
+
+       log.info(" 当 前 时 间 ： {}, 发 送 一 条 延 迟 {} 毫秒的信息给队列 delayed.queue:{}", new Date(), "3000", message);
 
     }
 }
