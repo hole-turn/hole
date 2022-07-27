@@ -17,6 +17,7 @@
         <module name="common-log" />
         <module name="common-redis" />
         <module name="gateway" />
+        <module name="redis" />
         <module name="common-core" />
       </profile>
     </annotationProcessing>
@@ -34,6 +35,7 @@
       <module name="jwt" target="1.8" />
       <module name="mq" target="8" />
       <module name="mq-springboot" target="1.8" />
+      <module name="redis" target="1.8" />
       <module name="system" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -41,6 +43,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="mq" options="" />
       <module name="mq-springboot" options="-parameters" />
+      <module name="redis" options="-parameters" />
     </option>
   </component>
 </project>

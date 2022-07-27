@@ -15,6 +15,7 @@
       <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq/mq.iml" filepath="$PROJECT_DIR$/mq/mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-springboot/mq-springboot.iml" filepath="$PROJECT_DIR$/mq-springboot/mq-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/system/system.iml" filepath="$PROJECT_DIR$/api/system/system.iml" />
     </modules>
   </component>
