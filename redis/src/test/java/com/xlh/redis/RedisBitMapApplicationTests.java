@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Map;
 
 @SpringBootTest
-class RedisApplicationTests {
+class RedisBitMapApplicationTests {
 
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
