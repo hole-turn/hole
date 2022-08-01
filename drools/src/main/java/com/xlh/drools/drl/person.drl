@@ -1,0 +1,17 @@
+import com.xlh.drools.entity.Person
+
+rule "rule_person_can_play_game"
+    when
+        $person: Person( age >= 18)
+    then
+        $person.setCanPlayGame(true);
+        System.out.println("触发规则:" + drools.getRule().getName());
+end
+
+rule "rule_person_can't_play_game"
+    when
+        $person: Person( age <18)
+    then
+        $person.setCanPlayGame(false);
+        System.out.println("触发规则:" + drools.getRule().getName());
+end
