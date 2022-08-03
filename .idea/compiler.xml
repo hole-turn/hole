@@ -12,7 +12,6 @@
         <module name="mq" />
         <module name="jwt" />
         <module name="common-log" />
-        <module name="drools" />
         <module name="common-redis" />
         <module name="redis" />
         <module name="mq-springboot" />
@@ -20,6 +19,7 @@
         <module name="common-swagger" />
         <module name="gateway" />
         <module name="common-core" />
+        <module name="design-mode" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -31,6 +31,7 @@
       <module name="common-redis" target="1.8" />
       <module name="common-security" target="1.8" />
       <module name="common-swagger" target="1.8" />
+      <module name="design-mode" target="1.8" />
       <module name="drools" target="1.8" />
       <module name="gateway" target="1.8" />
       <module name="hole" target="1.8" />
@@ -43,6 +44,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="design-mode" options="-parameters" />
       <module name="drools" options="-parameters" />
       <module name="mq" options="" />
       <module name="mq-springboot" options="-parameters" />

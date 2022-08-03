@@ -78,6 +78,10 @@ public class E {
         LocalDateTime expire = LocalDateTime.now().plusSeconds(1);
         LocalDateTime now = LocalDateTime.now();
         System.out.println(expire.isAfter(now));
+
+        Integer orderStatus1 = new Integer(1);
+        Integer orderStatus2 = new Integer(1);
+        System.out.println(orderStatus1 == orderStatus2);
     }
 
 }

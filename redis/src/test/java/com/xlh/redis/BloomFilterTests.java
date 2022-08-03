@@ -32,31 +32,33 @@ public class BloomFilterTests {
 
 
     @Test
-    public void bloomTest1(){
-        rBloomFilter= redissonClient.getBloomFilter("phoneListBloomFilter", new StringCodec());
-        rBloomFilter.tryInit(size,fpp);
+    public void bloomTest1() {
+        rBloomFilter = redissonClient.getBloomFilter("phoneListBloomFilter", new StringCodec());
+        rBloomFilter.tryInit(size, fpp);
         // 1测试  布隆过滤器有+redis有
         rBloomFilter.add("10001");
-        redissonClient.getBucket("10001",new StringCodec()).set("chinamobile10001");
+        redissonClient.getBucket("10001", new StringCodec()).set("chinamobile10001");
         System.out.println(getPhoneListById("10001"));
     }
+
     @Test
-    public void bloomTest2(){
-        rBloomFilter= redissonClient.getBloomFilter("phoneListBloomFilter", new StringCodec());
-        rBloomFilter.tryInit(size,fpp);
+    public void bloomTest2() {
+        rBloomFilter = redissonClient.getBloomFilter("phoneListBloomFilter", new StringCodec());
+        rBloomFilter.tryInit(size, fpp);
         //  2测试  布隆过滤器有+redis无
         rBloomFilter.add("10087");
         System.out.println(getPhoneListById("10087"));
     }
+
     @Test
-    public void bloomTest3(){
-        rBloomFilter= redissonClient.getBloomFilter("phoneListBloomFilter", new StringCodec());
-        rBloomFilter.tryInit(size,fpp);
+    public void bloomTest3() {
+        rBloomFilter = redissonClient.getBloomFilter("phoneListBloomFilter", new StringCodec());
+        rBloomFilter.tryInit(size, fpp);
         //3 测试 ，都没有
         System.out.println(getPhoneListById("10089"));
     }
-    private String getPhoneListById(String IDNumber)
-    {
+
+    private String getPhoneListById(String IDNumber) {
         String result = null;
 
         if (IDNumber == null) {
@@ -67,25 +69,23 @@ public class BloomFilterTests {
             //2 布隆过滤器里有，再去redis里面查询
             RBucket<String> rBucket = redissonClient.getBucket(IDNumber, new StringCodec());
             result = rBucket.get();
-            if(result != null)
-            {
-                return "i come from redis: "+result;
-            }else{
+            if (result != null) {
+                return "i come from redis: " + result;
+            } else {
                 result = getPhoneListByMySQL(IDNumber);
                 if (result == null) {
                     return null;
                 }
                 // 重新将数据更新回redis
-                redissonClient.getBucket(IDNumber,new StringCodec()).set(result);
+                redissonClient.getBucket(IDNumber, new StringCodec()).set(result);
             }
-            return "i come from mysql: "+result;
+            return "i come from mysql: " + result;
         }
         return result;
     }
 
-    private  String getPhoneListByMySQL(String IDNumber)
-    {
-        return "chinamobile"+IDNumber;
+    private String getPhoneListByMySQL(String IDNumber) {
+        return "chinamobile" + IDNumber;
     }
 
 

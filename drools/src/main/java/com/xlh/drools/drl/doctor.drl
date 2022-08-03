@@ -1,9 +1,0 @@
-import com.xlh.drools.entity.Doctor
-
-rule "doctor"
-    when
-        doctor :Doctor(type == 1)
-    then
-        doctor.setFull(false);
-        update(doctor)
-end
