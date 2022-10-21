@@ -2,6 +2,7 @@ package com.xlh.test.model;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -15,6 +16,7 @@ import java.math.BigDecimal;
  */
 @AllArgsConstructor
 @Data
+@Builder
 public class Stocks {
 
     @ApiModelProperty(value = "批次号")

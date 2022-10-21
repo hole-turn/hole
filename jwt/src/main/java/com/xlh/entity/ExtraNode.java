@@ -1,9 +1,11 @@
 package com.xlh.entity;
 
+import cn.hutool.core.bean.BeanUtil;
 import lombok.Data;
 
 import javax.validation.constraints.NotBlank;
 import java.io.Serializable;
+import java.util.Map;
 
 
 /**
@@ -18,4 +20,7 @@ public class ExtraNode implements Serializable {
     private Integer id;
     @NotBlank(message = "名字不能为空")
     private String name;
+    public Map<String, Object> toMap() {
+        return BeanUtil.beanToMap(this);
+    }
 }
