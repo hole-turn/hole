@@ -1,11 +1,7 @@
 package com.xlh.test;
 
-
-import cn.hutool.core.collection.CollectionUtil;
-
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.HashMap;
+import java.util.Stack;
 
 /**
  * @author: xielinhao
@@ -15,10 +11,29 @@ import java.util.List;
  * @date: 14:21 2022/10/8
  */
 public class H {
-    public static void main(String[] args){
-        String s = "红霉素肠溶片 硝苯地平缓释片";
-
-        List<String> strings = Arrays.asList(s.split(" "));
-        System.out.println(strings);
+    public static void main(String[] args) {
+        isValid("{[]}");
     }
+
+    public static boolean isValid(String s) {
+        // 括号之间的对应规则
+        HashMap<Character, Character> mappings = new HashMap<Character, Character>();
+        mappings.put(')', '(');
+        mappings.put('}', '{');
+        mappings.put(']', '[');
+        Stack<Character> stack = new Stack<Character>();
+        char[] chars = s.toCharArray();
+        for (int i = 0; i < chars.length; i++) {
+            if (mappings.containsKey(chars[i])) {
+                char topElement = stack.empty() ? '#' : stack.pop();
+                if (topElement != mappings.get(chars[i])) {
+                    return false;
+                }
+            } else {
+                stack.push(chars[i]);
+            }
+        }
+        return stack.isEmpty();
+    }
+
 }

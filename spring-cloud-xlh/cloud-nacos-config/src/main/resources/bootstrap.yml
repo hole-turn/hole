@@ -1,0 +1,23 @@
+server:
+  port: 3377
+spring:
+  application:
+#    name: cloud-nacos-config
+    name: hospital-patient
+  cloud:
+    nacos:
+      config:
+        server-addr: localhost:8848   # nacos本地服务器地址
+        file-extension: yaml   # 配置文件的格式，默认properties
+#        group: TEST_GROUP # 分组，默认DEFAULT_GROUP
+        group: DEFAULT_GROUP # 分组，默认DEFAULT_GROUP
+        refresh:
+          enabled: false #禁用自动更新
+#        namespace: 2ad0ab19-7960-48db-8911-458412cd5239
+        namespace: 8c5d6e10-b753-4120-9888-cebfc658ec28
+        extension-configs:
+          - data-id: hospital-patient-application-local.yaml
+          - data-id: hospital-patient-application.yaml
+
+  profiles: local
+# nacos：${spring.application.name}-${spring.profiles.active}.${spring.cloud.nacos.config.file-extension}

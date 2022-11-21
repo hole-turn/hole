@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-xlh/cloud-nacos-config/cloud-nacos-config.iml" filepath="$PROJECT_DIR$/spring-cloud-xlh/cloud-nacos-config/cloud-nacos-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-xlh/cloud-nacos-consumer/cloud-nacos-consumer.iml" filepath="$PROJECT_DIR$/spring-cloud-xlh/cloud-nacos-consumer/cloud-nacos-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-xlh/cloud-nacos-provider/cloud-nacos-provider.iml" filepath="$PROJECT_DIR$/spring-cloud-xlh/cloud-nacos-provider/cloud-nacos-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common-core/common-core.iml" filepath="$PROJECT_DIR$/common/common-core/common-core.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common-datascopes/common-datascopes.iml" filepath="$PROJECT_DIR$/common/common-datascopes/common-datascopes.iml" />
@@ -17,6 +20,7 @@
       <module fileurl="file://$PROJECT_DIR$/mq/mq.iml" filepath="$PROJECT_DIR$/mq/mq.iml" />
       <module fileurl="file://$PROJECT_DIR$/mq-springboot/mq-springboot.iml" filepath="$PROJECT_DIR$/mq-springboot/mq-springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/redis/redis.iml" filepath="$PROJECT_DIR$/redis/redis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cloud-xlh/spring-cloud-xlh.iml" filepath="$PROJECT_DIR$/spring-cloud-xlh/spring-cloud-xlh.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/system/system.iml" filepath="$PROJECT_DIR$/api/system/system.iml" />
     </modules>
   </component>
