@@ -4,11 +4,15 @@ import cn.hutool.core.collection.CollUtil;
 import cn.hutool.core.convert.Convert;
 import cn.hutool.core.date.DatePattern;
 import cn.hutool.core.date.LocalDateTimeUtil;
+import cn.hutool.http.HttpUtil;
+import com.xlh.invoic.vo.InvoiceBodyBuilder;
 import io.swagger.models.auth.In;
 
+import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -96,9 +100,17 @@ public class Times {
 //        System.out.println(substring);
 //        System.out.println(substring2);
 
+//
+//        Date from = Date.from(LocalDateTime.now().atZone(ZoneId.systemDefault()).toInstant());
+//        System.out.println(from);
+        InvoiceBodyBuilder amount1 = InvoiceBodyBuilder.builder().je("-1").build();
+        InvoiceBodyBuilder amount2 = InvoiceBodyBuilder.builder().je("-2").build();
+        InvoiceBodyBuilder amount3 = InvoiceBodyBuilder.builder().je("-1").build();
+        List<InvoiceBodyBuilder> invoiceBodyBuilders = Arrays.asList(amount1, amount2, amount3);
 
-        Date from = Date.from(LocalDateTime.now().atZone(ZoneId.systemDefault()).toInstant());
-        System.out.println(from);
-
+        BigDecimal totalAmount = invoiceBodyBuilders.stream()
+                .map(s -> new BigDecimal(s.getJe()))
+                .reduce(BigDecimal.ZERO, BigDecimal::add);
+        System.out.println(totalAmount);
     }
 }

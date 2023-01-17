@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<business id="FPKJ">
+    <body>
+        <input>
+            <kpzdbs>{1}</ kpzdbs>
+            <jqbh>{2}</jqbh>
+            <fpqqlsh>{3}</fpqqlsh>
+            <shnsrsbh>纳税人识别号</shnsrsbh>
+            <xhdwdzdh>销方地址电话</xhdwdzdh>
+            <xhdwyhzh>销方银行账号</xhdwyhzh>
+            <fplxdm>发票类型代码</fplxdm>
+            <kplx>开票类型</kplx>
+            <yhlx>用户类型</yhlx>
+            <tspz>特殊票种</tspz>
+            <ghdwsbh>购货单位识别号</ghdwsbh>
+            <ghdwmc>购货单位名称</ghdwmc>
+            <ghdwdzdh>购货单位地址电话</ghdwdzdh>
+            <ghdwyhzh>购货单位银行帐号</ghdwyhzh>
+            <fyxm count="{123}">
+                <group xh="1">
+                    <fphxz>发票行性质</fphxz>
+                    <spmc>商品名称</spmc>
+                    <ggxh>规格型号</ggxh>
+                    <dw>单位</dw>
+                    <spsl>商品数量</spsl>
+                    <dj>单价</dj>
+                    <je>金额</je>
+                    <sl>税率</sl>
+                    <se>税额</se>
+                    <spbm>商品编码</spbm>
+                    <zxbm>自行编码</zxbm>
+                    <yhzcbs>优惠政策标识</yhzcbs>
+                    <lslbs>0税率标识</lslbs>
+                    <zzstsgl>增值税特殊管理</zzstsgl>
+                </group>
+            </fyxm>
+            <bz>备注</bz>
+            <skr>收款人</skr>
+            <fhr>复核人</fhr>
+            <kpr>开票人</kpr>
+            <yfpdm>原发票代码</yfpdm>
+            <yfphm>原发票号码</yfphm>
+            <sprsjh>收票人手机号</sprsjh>
+            <notify_url>通知地址</ notify_url>
+            <extendInfo>![CDATA[扩展信息]]</extendInfo>
+        </input>
+    </body>
+</business>

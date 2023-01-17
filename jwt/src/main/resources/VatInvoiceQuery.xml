@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<business id="FPCX">
+    <body>
+        <input>
+            <kpzdbs>{kpzdbs}</kpzdbs>
+            <nsrsbh>{nsrsbh}</nsrsbh>
+            <fplxdm>{fplxdm}</fplxdm>
+            <cxfs>{cxfs}</cxfs>
+            <cxtj>{cxtj}</cxtj>
+        </input>
+    </body>
+</business>

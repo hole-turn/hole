@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<business id="FPKJ">
+    <body>
+        <input>
+            <kpzdbs>{kpzdbs}</kpzdbs>
+            <jqbh>{jqbh}</jqbh>
+            <fpqqlsh>{fpqqlsh}</fpqqlsh>
+            <shnsrsbh>{shnsrsbh}</shnsrsbh>
+            <xhdwdzdh>{xhdwdzdh}</xhdwdzdh>
+            <xhdwyhzh>{xhdwyhzh}</xhdwyhzh>
+            <fplxdm>{fplxdm}</fplxdm>
+            <kplx>{kplx}</kplx>
+            <yhlx>{yhlx}</yhlx>
+            <tspz>{tspz}</tspz>
+            <ghdwsbh>{ghdwsbh}</ghdwsbh>
+            <ghdwmc>{ghdwmc}</ghdwmc>
+            <ghdwdzdh>{ghdwdzdh}</ghdwdzdh>
+            <ghdwyhzh>{ghdwyhzh}</ghdwyhzh>
+            <fyxm count="{fyxmCount}">
+                {groups}
+            </fyxm>
+            <bz>{bz}</bz>
+            <skr>{skr}</skr>
+            <fhr>{fhr}</fhr>
+            <kpr>{kpr}</kpr>
+            <yfpdm>{yfpdm}</yfpdm>
+            <yfphm>{yfphm}</yfphm>
+            <sprsjh>{sprsjh}</sprsjh>
+            <notify_url>{notify_url}</notify_url>
+        </input>
+    </body>
+</business>
