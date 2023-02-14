@@ -56,7 +56,7 @@
       <module name="mq" options="" />
       <module name="mq-springboot" options="-parameters" />
       <module name="redis" options="-parameters" />
-      <module name="spring-cloud-xlh" options="-parameters" />
+      <module name="spring-cloud-xlh" options="" />
     </option>
   </component>
 </project>
