@@ -1,2 +1,7 @@
-.idea/
+.idea
 *.log
+*.iws
+*.iml
+*.ipr
+*.class
+target/*
